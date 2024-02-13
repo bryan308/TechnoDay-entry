@@ -1,0 +1,99 @@
+.p--2 {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 100px 40px;
+}
+
+.article-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 24px;
+    gap: 40px;
+}
+
+.article-card .container-left {
+    height: 250px;
+}
+
+.article-card .container-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.article-card {
+    border-radius: 10px;
+    backdrop-filter: blur(12px);
+    border: 1px solidrgba(166, 165, 165, 0.145);
+    background: linear-gradient(180deg,
+            rgba(51, 51, 51, 0.2) 0%,
+            rgba(122, 122, 122, 0.216) 100%);
+
+    flex: 0 0 calc(50% - 20px);
+    min-height: 500px;
+}
+
+.container-right {
+    padding: 0 24px 24px 24px;
+}
+
+.container-right .article-title {
+    letter-spacing: 2px;
+    font-family: var(--accent-font-200);
+    font-size: 2em;
+    margin: 16px 0;
+}
+
+.container-right .article-paragraph {
+    color: var(--font-color-300);
+}
+
+.source {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    gap: 16px;
+}
+
+.source-image {
+    border-radius: 50%;
+}
+
+.source-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.source-name p {
+    color: var(--font-color-100);
+}
+
+.source-name span {
+    color: var(--font-color-300);
+    font-size: .7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .article-card {
+        flex: 0 0 calc(100% - 20px);
+    }
+}
