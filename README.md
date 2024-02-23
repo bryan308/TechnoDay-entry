@@ -1,4 +1,4 @@
-# Theme: Techno Odyssey: Embrace the beat of the future
+### Theme: Techno Odyssey: Embrace the beat of the future
 
 <img src="/assets/screenshots/home.png" alt="home page" />
 <img src="/assets/screenshots/article 1.png" alt="article page 1" />
