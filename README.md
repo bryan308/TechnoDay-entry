@@ -8,3 +8,6 @@
 <img src="/assets/screenshots/about1.png" alt="about page 1" />
 <img src="/assets/screenshots/about2.png" alt="about page 2" />
 <img src="/assets/screenshots/reach.png" alt="reach us page" />
+
+
+PS di pa ako nabayaran ng 800Million at wala pang certificate huhubels
