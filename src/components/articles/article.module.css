@@ -1,0 +1,12 @@
+.article_card {
+	flex: 0 0 calc(50% - 20px);
+	min-height: 500px;
+	background: linear-gradient(180deg, #33333333 0%, #7a7a7a37 100%);
+}
+
+.article_title {
+	letter-spacing: 2px;
+	font-size: 2em;
+	margin: 16px 0;
+  font-weight: 600;
+}

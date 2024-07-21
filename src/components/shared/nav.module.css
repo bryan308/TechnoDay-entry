@@ -1,0 +1,23 @@
+.header {
+	box-shadow: 0 10px 15px -3px #2a0e61b3, 0 4px 6px -4px #2a0e61b3;
+}
+
+.nav_link a {
+	color: #e1a9ff;
+	text-decoration: none;
+	padding: 8px 24px;
+	font-size: 16px;
+
+	backdrop-filter: blur(12px);
+	border: 1px solid #a6a5a525;
+	background: linear-gradient(180deg, #33333333 0%, #a6a5a537 100%);
+	outline: none;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav_link a:hover,
+.nav_link a:focus {
+	color: #fff;
+	border: 1px solid #c8c8c862;
+	box-shadow: 0 0 4px 2px #c280ff44;
+}

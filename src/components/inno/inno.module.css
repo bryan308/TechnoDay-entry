@@ -1,0 +1,38 @@
+.inn_card {
+	position: relative;
+	display: flex;
+	min-height: 250px;
+	max-width: 630px;
+	width: 630px;
+
+	padding: 24px;
+	border-radius: 10px;
+	backdrop-filter: blur(12px);
+	border: 1px solid rgba(166, 165, 165, 0.145);
+	background: linear-gradient(180deg, rgba(51, 51, 51, 0.2) 0%, rgba(122, 122, 122, 0.216) 100%);
+}
+
+.grad_circle {
+	position: absolute;
+	bottom: 30px;
+	right: 25px;
+	height: 150px;
+	width: 150px;
+	filter: blur(20px);
+	opacity: 0.5;
+	border-radius: 50%;
+	background: radial-gradient(75% 75% at 75% 75%, rgb(67, 10, 255), rgb(147, 0, 210));
+	z-index: -1;
+}
+
+.inn_title {
+	font-size: 1.4em;
+	margin-bottom: 16px;
+	font-weight: 700;
+}
+
+.inn_image {
+	position: relative;
+  height: 200px;
+  min-width: 200px;
+}

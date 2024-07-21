@@ -1,0 +1,23 @@
+.text_title {
+	text-shadow: 0 6px 5px rgb(0, 0, 163);
+}
+
+.sub_title {
+	font-size: 1.5em;
+	color: transparent;
+	background: linear-gradient(90deg, #8b59ff 0%, #b466fe 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sub_text {
+	font-size: 1em;
+	margin: 8px 0 0 0;
+}
+
+.image_content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
