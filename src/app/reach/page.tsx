@@ -5,10 +5,10 @@ import ImageRender from '@/components/shared/image-render';
 
 function ReachPage() {
 	return (
-		<section className='animate-fadeIn opacity-0 py-[100px] px-10 overflow-y-auto overflow-x-hidden'>
-			<h1 className={cn(accent100.className, 'page-title tracking-[2px]')}>REACH US</h1>
+		<section className='animate-fadeIn opacity-0 py-[100px] overflow-y-auto overflow-x-hidden px-4 lg:px-10'>
+			<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>REACH US</h1>
 			<div className='flex my-10 w-full h-full'>
-				<div className='w-[30%] flex items-center justify-center'>
+				<div className='w-[30%] hidden lg:flex items-center justify-center'>
 					<ImageRender
 						src='/images/contact.png'
 						alt='Envelope Icon'
@@ -16,9 +16,9 @@ function ReachPage() {
 						height={350}
 					/>
 				</div>
-				<div className='w-[70%]'>
-					<form className='w-[80%] mx-auto'>
-						<h2 className='text-5xl font-bold'>For more info</h2>
+				<div className='w-full lg:w-[70%]'>
+					<form className='w-full lg:w-[80%] mx-auto'>
+						<h2 className='text-3xl lg:text-5xl font-bold'>For more info</h2>
 						<p className='text-[#c3c3c3] text-base font-light'>
 							We invite you to establish a connection with us by taking a moment to send us a
 							message. Your thoughts and inquiries are important to us, and we look forward to

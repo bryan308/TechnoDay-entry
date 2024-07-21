@@ -23,7 +23,7 @@ function Navbar() {
 		<>
 			<nav
 				className={cn(
-					'h-[75px] w-full py-4 px-10',
+					'h-[75px] w-full py-4 px-4 lg:px-10',
 					'flex items-center justify-between',
 					'fixed top-0 bg-[#03001417] backdrop-blur-md z-50',
 					styles.header

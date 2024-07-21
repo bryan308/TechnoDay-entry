@@ -13,13 +13,16 @@ export default function Home() {
 						className={cn(
 							accent100.className,
 							styles.text_title,
-							'text-5xl md:text-7xl font-bold leading-normal'
+							'text-5xl md:text-7xl font-bold leading-normal mb-2',
+							'text-center lg:text-left'
 						)}
 					>
 						Techno Odyssey
 					</h1>
-					<p className={cn(styles.sub_title)}>Embrace the beat of the future</p>
-					<p className={cn(styles.sub_text, 'text-[#c3c3c3]')}>
+					<p className={cn(styles.sub_title, 'text-center lg:text-left')}>
+						Embrace the beat of the future
+					</p>
+					<p className={cn(styles.sub_text, 'text-center lg:text-left text-[#c3c3c3]')}>
 						Discover the latest in tech on Techno Odyssey, elevate your knowledge with fresh
 						insights and stay ahead in the ever-evolving digital world
 					</p>

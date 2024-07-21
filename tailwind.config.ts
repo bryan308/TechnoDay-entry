@@ -62,7 +62,7 @@ const config: Config = {
 				// },
 			},
 			animation: {
-				fadeIn: 'fadeIn 500ms ease-in-out forwards',
+				fadeIn: 'fadeIn var(--duration, 500ms) ease-in-out forwards',
 				float: 'float 3s ease-in-out infinite',
 				// fadeInCircle: 'fadeInCircle 3s linear',
 				// changeSize: 'changeSize 20s linear infinite',

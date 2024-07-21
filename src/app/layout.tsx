@@ -31,8 +31,8 @@ export default function RootLayout({
 					loop
 				></video> */}
 				<Navbar />
-				<div className='circle-element circle-1'></div>
-				<div className='circle-element circle-2'></div>
+				{/* <div className='circle-element circle-1 left-1/4 bottom-2/4 lg:bottom-40 lg:left-40'></div>
+				<div className='circle-element circle-2 right-1/4 bottom-2/4 lg:bottom-40 lg:right-60'></div> */}
 				{children}
 				<Footer />
 			</body>

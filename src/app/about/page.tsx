@@ -7,10 +7,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function AboutPage() {
 	return (
-		<section className='animate-fadeIn opacity-0 py-[100px] px-10 overflow-y-auto overflow-x-hidden'>
-			<h1 className={cn(accent100.className, 'page-title tracking-[2px]')}>ABOUT</h1>
+		<section className='animate-fadeIn opacity-0 py-[100px] overflow-y-auto overflow-x-hidden px-4 lg:px-10'>
+			<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>ABOUT</h1>
 			<div>
-				<div className='text-center mx-auto px-[20%]'>
+				<div className='text-center mx-auto lg:px-[20%]'>
 					<p className='text-[#c3c3c3]'>
 						At the heart of our pursuit is a commitment to pioneering technological advancements.
 						Embark on a journey with us, where each innovation contributes to shaping the future of
@@ -18,7 +18,7 @@ function AboutPage() {
 						crafting solutions that transcend expectations.
 					</p>
 				</div>
-				<div className='flex flex-wrap justify-center my-10'>
+				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center my-10'>
 					{aboutItems.map((item, i: number) => (
 						<div
 							key={i}
