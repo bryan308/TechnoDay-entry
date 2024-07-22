@@ -1,3 +1,5 @@
+Welcome to the new version of Technodyssey! Built with Next.js, this version offers a similar UI to the original project but with a smoother and more seamless browsing experience. Created for users who want to view it on their own devices, this version is now available for viewing, including mobile screens, thanks to Tailwind CSS. 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
