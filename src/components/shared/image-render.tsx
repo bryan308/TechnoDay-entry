@@ -9,9 +9,10 @@ type TImageRender = {
 	width: number;
 	height: number;
 	className?: string;
+	priority?: boolean;
 };
 
-export default function ImageRender({ src, alt, width, height, className }: TImageRender) {
+export default function ImageRender({ src, alt, width, height, className, ...props }: TImageRender) {
 	const [isLoading, setisLoading] = useState(true);
 
 	const handleLoading = () => {
@@ -25,13 +26,13 @@ export default function ImageRender({ src, alt, width, height, className }: TIma
 
 	return (
 		<Image
+			{...props}
 			src={src}
 			alt={alt}
 			quality={100}
 			style={style}
 			width={width}
 			height={height}
-			// placeholder='blur'
 			className={className}
 			onLoad={handleLoading}
 			aria-label={isLoading ? 'Loading...' : ''}

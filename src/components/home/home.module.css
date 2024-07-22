@@ -3,7 +3,6 @@
 }
 
 .sub_title {
-	font-size: 1.5em;
 	color: transparent;
 	background: linear-gradient(90deg, #8b59ff 0%, #b466fe 100%);
 	background-clip: text;
@@ -11,7 +10,6 @@
 }
 
 .sub_text {
-	font-size: 1em;
 	margin: 8px 0 0 0;
 }
 

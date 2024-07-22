@@ -10,7 +10,7 @@ function AboutPage() {
 		<section className='animate-fadeIn opacity-0 py-[100px] overflow-y-auto overflow-x-hidden px-4 lg:px-10'>
 			<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>ABOUT</h1>
 			<div>
-				<div className='text-center mx-auto lg:px-[20%]'>
+				<div className='lg:text-center mx-auto lg:px-[20%]'>
 					<p className='text-[#c3c3c3]'>
 						At the heart of our pursuit is a commitment to pioneering technological advancements.
 						Embark on a journey with us, where each innovation contributes to shaping the future of

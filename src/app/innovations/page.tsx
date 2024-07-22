@@ -7,7 +7,9 @@ import ImageRender from '@/components/shared/image-render';
 function InnoPage() {
 	return (
 		<section className='animate-fadeIn opacity-0 relative overflow-y-auto overflwo-x-hidden py-[100px] px-4 lg:px-10'>
-			<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>INNOVATIONS</h1>
+			<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>
+				INNOVATIONS
+			</h1>
 			<div className='flex h-auto items-center justify-center flex-wrap w-full my-5 gap-[40px]'>
 				{innovations.map((inn, i: number) => (
 					<div
@@ -24,6 +26,7 @@ function InnoPage() {
 								alt={inn.alt}
 								width={200}
 								height={200}
+								priority
 								className='animate-float w-[200px] h-[200px]'
 							/>
 							{/* <div className={cn('animate-floatingRotate', styles.grad_circle)}></div> */}
