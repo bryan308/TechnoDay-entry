@@ -5,7 +5,7 @@ import { Poppins } from 'next/font/google';
 import Navbar from '@/components/shared/nav';
 import Footer from '@/components/shared/footer';
 
-const poppins = Poppins({ subsets: ['latin'], weight: ['100', '200', '300', '400'] });
+const poppins = Poppins({ subsets: ['latin'], weight: ['200', '300', '400'] });
 
 export const metadata: Metadata = {
 	title: {
