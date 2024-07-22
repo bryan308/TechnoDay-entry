@@ -3,6 +3,11 @@ import { accent100 } from '@/lib/font';
 import { innovations } from '@/components/inno/inno';
 import styles from '../../components/inno/inno.module.css';
 import ImageRender from '@/components/shared/image-render';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'Innovations',
+};
 
 function InnoPage() {
 	return (
@@ -29,8 +34,8 @@ function InnoPage() {
 								priority
 								className='animate-float w-[200px] h-[200px]'
 							/>
-							{/* <div className={cn('animate-floatingRotate', styles.grad_circle)}></div> */}
-							<div className={styles.grad_circle}></div>
+							<div className={cn('animate-floatingRotate', styles.grad_circle)}></div>
+							{/* <div className={styles.grad_circle}></div> */}
 						</div>
 					</div>
 				))}

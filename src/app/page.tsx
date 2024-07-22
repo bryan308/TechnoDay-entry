@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { cn } from '@/lib/utils';
 import { accent100 } from '@/lib/font';
 import styles from '../components/home/home.module.css';

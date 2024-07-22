@@ -2,11 +2,18 @@ import { cn } from '@/lib/utils';
 import { accent100 } from '@/lib/font';
 import styles from '../../components/reach/reach.module.css';
 import ImageRender from '@/components/shared/image-render';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'Reach Us',
+};
 
 function ReachPage() {
 	return (
 		<section className='animate-fadeIn opacity-0 py-[100px] overflow-y-auto overflow-x-hidden px-4 lg:px-10'>
-			<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>REACH US</h1>
+			<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>
+				REACH US
+			</h1>
 			<div className='flex my-10 w-full h-full'>
 				<div className='w-[30%] hidden lg:flex items-center justify-center'>
 					<ImageRender

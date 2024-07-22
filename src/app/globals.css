@@ -14,20 +14,6 @@
 	background-color: #2a0e61;
 }
 
-/* * {
-  outline: lime dashed 1px;
-} */
-
-.blackhole {
-	position: absolute;
-	top: -30em;
-	height: 1100px;
-	width: 100%;
-	transform: rotate(180deg);
-	/* animation: fadeIn 2s linear; */
-	z-index: -1;
-}
-
 .circle-element {
 	position: absolute;
 	height: 400px;

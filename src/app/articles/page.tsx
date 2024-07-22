@@ -3,12 +3,19 @@ import { accent100, accent200 } from '@/lib/font';
 import { articles } from '@/components/articles/articles';
 import styles from '../../components/articles/article.module.css';
 import ImageRender from '@/components/shared/image-render';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'Articles',
+};
 
 function ArticlesPage() {
 	return (
 		<>
 			<section className='animate-fadeIn opacity-0 relative overflow-y-auto overflwo-x-hidden py-[100px] px-4 lg:px-10'>
-				<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>ARTICLES</h1>
+				<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>
+					ARTICLES
+				</h1>
 				<div className='grid grid-cols-1 lg:grid-cols-2 justify-center lg:m-5 gap-[40px]'>
 					{articles.map((a, i: number) => (
 						<div
@@ -30,7 +37,11 @@ function ArticlesPage() {
 								/>
 							</div>
 							<div className='p-5 pt-0'>
-								<h3 className={cn(accent200.className, styles.article_title, 'text-2xl lg:text-3xl')}>{a.title}</h3>
+								<h3
+									className={cn(accent200.className, styles.article_title, 'text-2xl lg:text-3xl')}
+								>
+									{a.title}
+								</h3>
 								<p className='text-[#c3c3c3] text-base'>{a.paragraph}</p>
 								<div className='flex items-center my-4 gap-4'>
 									{a.avatar && (

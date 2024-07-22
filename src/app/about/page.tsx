@@ -1,14 +1,20 @@
-import React from 'react';
 import { cn } from '@/lib/utils';
 import { accent100, accent200 } from '@/lib/font';
 import { aboutItems } from '@/components/about/about';
 import styles from '../../components/about/about.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'About',
+};
 
 function AboutPage() {
 	return (
 		<section className='animate-fadeIn opacity-0 py-[100px] overflow-y-auto overflow-x-hidden px-4 lg:px-10'>
-			<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>ABOUT</h1>
+			<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>
+				ABOUT
+			</h1>
 			<div>
 				<div className='lg:text-center mx-auto lg:px-[20%]'>
 					<p className='text-[#c3c3c3]'>
