@@ -1,11 +1,13 @@
 import { cn } from '@/lib/utils';
 import { accent100 } from '@/lib/font';
+import Circle from '@/components/shared/circle';
 import styles from '../components/home/home.module.css';
 import ImageRender from '@/components/shared/image-render';
 
 export default function Home() {
 	return (
-		<section className='animate-fadeIn opacity-0 h-dvh overflow-hidden px-4 lg:px-[30px]'>
+		<section className='relative animate-fadeIn opacity-0 h-dvh overflow-hidden px-4 lg:px-[30px]'>
+			<Circle />
 			<div className='flex flex-col-reverse lg:flex-row min-h-dvh items-center justify-center'>
 				<div className='w-full lg:w-2/4 lg:mx-5'>
 					<h1

@@ -1,8 +1,9 @@
+import { Metadata } from 'next';
 import { cn } from '@/lib/utils';
 import { accent100 } from '@/lib/font';
+import Circle from '@/components/shared/circle';
 import styles from '../../components/reach/reach.module.css';
 import ImageRender from '@/components/shared/image-render';
-import { Metadata } from 'next';
 
 export const metadata: Metadata = {
 	title: 'Reach Us',
@@ -10,7 +11,8 @@ export const metadata: Metadata = {
 
 function ReachPage() {
 	return (
-		<section className='animate-fadeIn opacity-0 py-[100px] overflow-y-auto overflow-x-hidden px-4 lg:px-10'>
+		<section className='relative animate-fadeIn opacity-0 py-[100px] overflow-y-auto overflow-x-hidden px-4 lg:px-10'>
+			<Circle />
 			<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>
 				REACH US
 			</h1>

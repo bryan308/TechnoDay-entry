@@ -34,7 +34,7 @@ export default function RootLayout({
 				className={cn(poppins.className, 'bg-[#030015] text-white min-h-screen overflow-x-hidden')}
 			>
 				<video
-					className='animate-fadeIn [--duration:3000ms] block absolute -top-[29em] md:-top-[30em] h-[1100px] w-full rotate-180 -z-10'
+					className='animate-fadeIn [--duration:3000ms] block absolute -top-[29.1em] md:-top-[30em] h-[1100px] w-full rotate-180 -z-10'
 					src='/vid/blackhole.webm'
 					playsInline
 					autoPlay
@@ -42,8 +42,6 @@ export default function RootLayout({
 					loop
 				></video>
 				<Navbar />
-				{/* <div className='circle-element circle-1 left-1/4 bottom-2/4 lg:bottom-40 lg:left-40'></div>
-				<div className='circle-element circle-2 right-1/4 bottom-2/4 lg:bottom-40 lg:right-60'></div> */}
 				{children}
 				<Footer />
 			</body>

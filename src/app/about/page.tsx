@@ -1,9 +1,10 @@
+import { Metadata } from 'next';
 import { cn } from '@/lib/utils';
+import Circle from '@/components/shared/circle';
 import { accent100, accent200 } from '@/lib/font';
 import { aboutItems } from '@/components/about/about';
 import styles from '../../components/about/about.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Metadata } from 'next';
 
 export const metadata: Metadata = {
 	title: 'About',
@@ -11,7 +12,8 @@ export const metadata: Metadata = {
 
 function AboutPage() {
 	return (
-		<section className='animate-fadeIn opacity-0 py-[100px] overflow-y-auto overflow-x-hidden px-4 lg:px-10'>
+		<section className='relative animate-fadeIn opacity-0 py-[100px] overflow-y-auto overflow-x-hidden px-4 lg:px-10'>
+			<Circle />
 			<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>
 				ABOUT
 			</h1>

@@ -48,9 +48,8 @@ function Navbar() {
 						type='button'
 						className={cn(
 							styles.toggle_button,
-							'p-2 w-10 h-10',
-							'md:hidden inline-flex items-center justify-center text-sm rounded-lg',
-							'text-neutral-200 focus:outline-none focus:ring-2 focus:ring-gray-600'
+							'text-neutral-200 p-2 w-10 h-10',
+							'md:hidden inline-flex items-center justify-center text-sm rounded-lg'
 						)}
 						aria-controls='navbar-hamburger'
 						aria-expanded='false'

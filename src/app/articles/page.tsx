@@ -1,9 +1,10 @@
+import { Metadata } from 'next';
 import { cn } from '@/lib/utils';
+import Circle from '@/components/shared/circle';
 import { accent100, accent200 } from '@/lib/font';
 import { articles } from '@/components/articles/articles';
-import styles from '../../components/articles/article.module.css';
 import ImageRender from '@/components/shared/image-render';
-import { Metadata } from 'next';
+import styles from '../../components/articles/article.module.css';
 
 export const metadata: Metadata = {
 	title: 'Articles',
@@ -12,7 +13,8 @@ export const metadata: Metadata = {
 function ArticlesPage() {
 	return (
 		<>
-			<section className='animate-fadeIn opacity-0 relative overflow-y-auto overflwo-x-hidden py-[100px] px-4 lg:px-10'>
+			<section className='relative animate-fadeIn opacity-0 overflow-y-auto overflow-x-hidden py-[100px] px-4 lg:px-10'>
+				<Circle />
 				<h1 className={cn(accent100.className, 'page-title text-4xl lg:text-5xl tracking-[2px]')}>
 					ARTICLES
 				</h1>
